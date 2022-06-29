@@ -17,7 +17,7 @@ ARG KEYCLOAK_DIST=https://github.com/keycloak/keycloak/releases/download/$KEYCLO
 
 USER root
 
-ADD tools /opt/jboss/tools
+
 RUN /opt/jboss/tools/build-keycloak.sh
 
 USER 1000
