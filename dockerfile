@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8-minimal
+FROM quay.io/keycloak/keycloak:latest as builder
 
 ENV KEYCLOAK_VERSION 15.0.2
 ENV JDBC_POSTGRES_VERSION 42.2.5
