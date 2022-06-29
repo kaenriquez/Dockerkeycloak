@@ -49,9 +49,9 @@ pipeline {
       //  script {
         //  sh "docker -h ${env.DOCKER_SERVER} run -p 8000:80 nginx/test"
          // sh "docker -H ${env.DOCKER_SERVER} run -d --name ${env.name} --restart unless-stopped -p ${env.PORT}:${env.EXPOSE_PORT} ${DOCKER_IMAGE_NAME}"
-        }
-      }
-    }
+       // }
+     // }
+   // }
     
-  }
+  //}
 }
